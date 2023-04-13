@@ -1,0 +1,31 @@
+button{
+    width: 400px;
+    height: 60px;
+    background-color: aquamarine;
+    color: rgb(0, 0, 68);
+}
+    body{
+        text-align: center;
+        background-color: darkblue;
+        color: aqua;
+        
+    }
+    textarea{
+        background-color: midnightblue;
+        color: aqua;
+    }
+    #pichu{
+        border-color: rgb(41, 195, 241);
+        border-style: groove;
+        width: 700px ;
+        height: 90px ;
+        border-width: 4cqb;
+    }
+   #pikachu {
+        border-color: rgb(41, 195, 241);
+        border-style: groove;
+        width: 700px ;
+        height: 90px ;
+        border-width: 4cqb;
+    }
+    
