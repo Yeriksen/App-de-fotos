@@ -7,7 +7,9 @@ leones.onresult=function (rinoceronte){
 console.log(rinoceronte)
 var nilo=rinoceronte.results[0][0].transcript
 document.getElementById("elantra").innerHTML=nilo
-dragon()
+if (nilo=="panda") {
+    dragon()
+}
 }
 function dragon(){
     var charizar=window.speechSynthesis
@@ -15,6 +17,7 @@ function dragon(){
     var charmander=new SpeechSynthesisUtterance(charmilion)
     charizar.speak(charmander)
     Webcam.attach(Raichu)
+    Barcelonafc()
 }
 var Raichu=document.getElementById("pichu")
 Webcam.set({
@@ -23,3 +26,9 @@ Webcam.set({
     image_format:"png",
     png_quality:90
 })
+function Barcelonafc(){
+    Webcam.snap(function(chivasfc){
+        document.getElementById("pikachu").innerHTML="<img src="+chivasfc+"></img>"
+    })
+    
+}
