@@ -1,3 +1,4 @@
+var Raichu=document.getElementById("pichu")
 var jaguares=window.webkitSpeechRecognition
 var leones=new jaguares
 function tomarselfi (){
@@ -17,9 +18,10 @@ function dragon(){
     var charmander=new SpeechSynthesisUtterance(charmilion)
     charizar.speak(charmander)
     Webcam.attach(Raichu)
-    Barcelonafc()
+    setTimeout(function(){
+        Barcelonafc()
+    },5000)
 }
-var Raichu=document.getElementById("pichu")
 Webcam.set({
     width:700,
     height:90,
